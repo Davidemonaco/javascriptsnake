@@ -131,6 +131,9 @@ body {
     }
   }
 }
+- for (i = 1; i <= 100; i++)
+    .circle-container
+        .circle
 canvas {
   display: block;
 }
