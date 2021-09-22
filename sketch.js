@@ -124,7 +124,7 @@ function Score() {
     fill(0); // Text color, rgb(0, 0, 0)
     textSize(this.height);
     textStyle(BOLD);
-    text(s.total,this.width/2-10-(this.height*s.total.length),this.height-10);
+    text(s.total,this.width/2-10,this.height-10);
     fill(0)
     rect(0,this.height - this.border,this.width,this.border)
   }
