@@ -12,7 +12,7 @@ var swiping = new Hammer(document.body, options);
 function setup() {
   eat = loadSound('assets/eat.mp3');
   specialeat = loadSound('assets/specialeat.mp3');
-  death = loadSound('assets/death.mp3');
+  death = loadSound('assets/Death.mp3');
   createCanvas(400, 450);
   swiping.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
   s = new Snake();
